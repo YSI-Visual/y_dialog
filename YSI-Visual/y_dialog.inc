@@ -65,20 +65,20 @@ Variables:
 
 // y_dialog - does stuff with dialogs.
 
-#include "..\YSI-Internal\y_version"
-#include "..\YSI-Data\y_bit"
+#include "..\YSI_Internal\y_version"
+#include "..\YSI_Data\y_bit"
 
-#include "..\YSI-Coding\y_remote"
+#include "..\YSI_Coding\y_remote"
 
-#include "..\YSI-Coding\y_inline"
-#include "..\YSI-Data\y_iterate"
+#include "..\YSI_Coding\y_inline"
+#include "..\YSI_Data\y_iterate"
 
-#include "..\YSI-Coding\y_hooks"
+#include "..\YSI_Coding\y_hooks"
 
-#include "..\YSI-Storage\y_amx"
+#include "..\YSI_Storage\y_amx"
 
 #define YSIM_U_DISABLE
-#include "..\YSI-Core\y_master"
+#include "..\YSI_Core\y_master"
 
 #if !defined MAX_DIALOGS
 	#define MAX_DIALOGS (2000)
